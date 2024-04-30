@@ -1,0 +1,33 @@
+/* src/css/style.css */
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #F0DEFD;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #contador {
+    font-size: 24px;
+    padding: 20px;
+    background-color: #F1E8D9;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #EFB0C9;
+    display: flex;
+    flex-wrap: nowrap;
+    height: 50px;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  #cuerpo{
+    display: flex;
+    align-content: center;
+    min-width: 100vw;
+    min-height: 100vh;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
