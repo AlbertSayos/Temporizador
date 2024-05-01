@@ -3,9 +3,9 @@
 body {
     font-family: Arial, sans-serif;
     text-align: center;
-    background-color: #F0DEFD;
+    
     margin: 0;
-    padding: 0;
+    padding: 10;
   }
   
   #contador {
@@ -25,9 +25,42 @@ body {
     display: flex;
     align-content: center;
     min-width: 100vw;
-    min-height: 100vh;
+    min-height: 35vh;
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    background-color: #F0DEFD;
   }
+
+  #reproductor {
+    text-align: center;
+  }
+  
+  #botonReproducir {
+    background-color: #007bff; /* Azul */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+#ZonaDeAudio{
+
+  background-color: #F0DEFD;
+}
+
+.zonaDeImagenes {
+  background-image: url('../image/fondo.jpeg');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  width: 100%;
+  min-width: 300px;
+}
+
+.zonaDeImagenes img{
+  width: 70%;
+  min-width: 300px;
+}

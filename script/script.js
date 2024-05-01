@@ -23,3 +23,20 @@ setInterval(actualizarContador, 1000);
 
 // Inicializa el contador al cargar la página
 actualizarContador();
+
+const audioPlayer = document.getElementById('audioPlayer');
+const botonReproducir = document.getElementById('botonReproducir');
+
+let reproduciendo = false;
+
+botonReproducir.addEventListener('click', () => {
+  if (!reproduciendo) {
+    audioPlayer.play();
+    botonReproducir.textContent = 'Pausa';
+    reproduciendo = true;
+  } else {
+    audioPlayer.pause();
+    botonReproducir.textContent = 'Reproducir';
+    reproduciendo = false;
+  }
+});
